@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 1em;
+}
+
+.article a {
+  text-decoration: none;
+  color: black;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8em;
+  gap: 0.5em;
+}
+
+.tags span {
+  display: inline-block;
+  margin: 0.25rem;
+  color: teal;
+  background: #f3f5f7;
+}
+
+.author-details {
+  text-align: left;
+}
+
+.author-details span {
+  font-size: 0.5rem;
+}
+
+span.author {
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
